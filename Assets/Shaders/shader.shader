@@ -60,8 +60,8 @@ Shader "Custom/shader"
                 uv += sin(uv.yx*7 + float2(0, time * 3)) * sin(cos(warpStrength*time));
                 
              
-             float circ = circle(uv, 0.5);
-                color += float3(0.2, 0.2, uv.y);
+             float circ = circle(uv, 0.8);
+                color += float3(0.6, 0.7, 1);
                 color += circ.rrr;
                
 
